@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文藻 E31C 畢業 25 周年同學會</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&family=Noto+Sans+TC:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #fdfbf7;
+            color: #4a4a4a;
+        }
+        .serif {
+            font-family: 'Noto Serif TC', serif;
+        }
+        .fade-in {
+            animation: fadeIn 1.5s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .bg-warm {
+            background-color: #f9f5f0;
+        }
+    </style>
+</head>
+<body class="leading-relaxed">
+
+    <!-- Hero Section -->
+    <div class="relative h-64 md:h-96 w-full overflow-hidden">
+        <!-- 此處使用剛生成的圖片，若無法顯示則顯示後備背景色 -->
+        <div class="absolute inset-0 bg-stone-200">
+            <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=2000" alt="Cafe atmosphere" class="w-full h-full object-cover opacity-80" onerror="this.src='https://via.placeholder.com/1200x600?text=Warm+Reunion'">
+        </div>
+        <div class="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center">
+            <div class="text-center text-white px-4 fade-in">
+                <h1 class="text-3xl md:text-5xl font-bold serif mb-2 tracking-widest text-shadow">25 載相聚 ‧ 情誼依舊</h1>
+                <p class="text-lg md:text-xl font-light tracking-widest">文藻 E31C 畢業 25 周年同學會</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="max-w-3xl mx-auto px-6 py-12">
+        
+        <!-- Opening Message -->
+        <div class="text-center mb-16">
+            <p class="text-gray-600 italic mb-4">「轉眼二十五載，讓我們在榖倉的麥香中，敘敘那些年的故事。」</p>
+            <div class="w-12 h-0.5 bg-amber-700 mx-auto opacity-30"></div>
+        </div>
+
+        <!-- Event Details Card -->
+        <div class="bg-white rounded-2xl shadow-sm border border-stone-100 p-8 mb-12">
+            <h2 class="text-2xl font-semibold mb-8 text-center border-b pb-4 border-stone-50">活動資訊</h2>
+            
+            <div class="space-y-6">
+                <div class="flex items-start">
+                    <div class="w-8 h-8 flex items-center justify-center bg-stone-100 rounded-full mr-4 mt-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-amber-800"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    </div>
+                    <div>
+                        <p class="font-medium text-stone-800">活動時間</p>
+                        <p class="text-gray-500">11:00 AM – 14:00 PM (預計停留 3 小時)</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start">
+                    <div class="w-8 h-8 flex items-center justify-center bg-stone-100 rounded-full mr-4 mt-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-amber-800"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    </div>
+                    <div>
+                        <p class="font-medium text-stone-800">活動地點</p>
+                        <p class="text-gray-500">馬玉山觀光工廠 — 穀倉咖啡 (Red Barn Coffee)</p>
+                        <a href="https://www.redbarn709.com/coffee.php?id=28221" target="_blank" class="text-amber-700 text-sm underline mt-1 block">查看官網資訊</a>
+                    </div>
+                </div>
+
+                <div class="flex items-start">
+                    <div class="w-8 h-8 flex items-center justify-center bg-stone-100 rounded-full mr-4 mt-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-amber-800"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                    </div>
+                    <div>
+                        <p class="font-medium text-stone-800">參加費用</p>
+                        <p class="text-gray-500">人均消費約 $350 - $500</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Schedule -->
+        <h2 class="text-2xl font-semibold mb-8 text-center serif tracking-wider">相聚流程</h2>
+        <div class="space-y-0 relative border-l-2 border-stone-200 ml-4 md:ml-12 pl-8 pb-12">
+            
+            <div class="relative mb-12">
+                <div class="absolute -left-11 top-0 w-6 h-6 rounded-full bg-amber-700 border-4 border-white shadow-sm"></div>
+                <h3 class="text-lg font-semibold text-stone-800">11:00 | 穀食午餐，溫馨開場</h3>
+                <p class="text-gray-500 mt-2">在輕工業風與紅磚牆圍繞的穀倉咖啡，享用美味午茶與正餐。這段時間，屬於許久未見的老同學們。</p>
+            </div>
+
+            <div class="relative mb-12">
+                <div class="absolute -left-11 top-0 w-6 h-6 rounded-full bg-stone-300 border-4 border-white shadow-sm"></div>
+                <h3 class="text-lg font-semibold text-stone-800">12:30 | 自由參觀與深入對談</h3>
+                <p class="text-gray-500 mt-2 text-sm">【專屬行程】攜伴或帶小朋友的家庭，可用完餐後轉往馬玉山觀光工廠內部參觀，享受親子時光；老同學則可繼續在咖啡廳盡情暢談，細數當年校園點滴。</p>
+            </div>
+
+            <div class="relative mb-0">
+                <div class="absolute -left-11 top-0 w-6 h-6 rounded-full bg-amber-700 border-4 border-white shadow-sm"></div>
+                <h3 class="text-lg font-semibold text-stone-800">14:00 | 校園巡禮，消食慢步</h3>
+                <p class="text-gray-500 mt-2">步行約 5 分鐘，我們將一同走進文藻校園，在熟悉的風景中散步消食。看看那些變與不變的角落，拍下 25 周年的紀念合影。</p>
+            </div>
+        </div>
+
+        <!-- Footer / Notes -->
+        <div class="mt-16 p-8 bg-warm rounded-2xl text-center">
+            <h4 class="font-semibold text-stone-800 mb-4 tracking-wide uppercase text-sm">溫馨提醒</h4>
+            <p class="text-gray-600 text-sm leading-loose">
+                本次聚會預計人數為 45 人，座位有限。<br>
+                為了方便向餐廳預約及統計人數，請確認您的行程後進行回覆。<br>
+                期待在充滿麥芽香氣的午後，遇見依然如初的你。
+            </p>
+        </div>
+
+        <div class="mt-12 text-center text-stone-400 text-xs">
+            Wenzao E31C Class Reunion • Since 1999 • Celebrating 25 Years
+        </div>
+    </div>
+
+</body>
+</html>
